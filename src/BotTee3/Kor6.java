@@ -1,4 +1,4 @@
-package Botee3;
+package BotTee3;
 
 public class Kor6 {
     public static void main(String[] args) {

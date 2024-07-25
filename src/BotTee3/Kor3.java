@@ -1,4 +1,4 @@
-package Botee3;
+package BotTee3;
 
 import java.util.Scanner;
 
