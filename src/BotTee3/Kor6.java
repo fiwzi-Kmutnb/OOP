@@ -4,8 +4,8 @@ public class Kor6 {
     public static void main(String[] args) {
         int[] a = {18,3,48,2,18,78,9};
         int[] b = {9,18,3,18,48,2,78};
-        a = sort(a);
-        b = sort(b);
+        sort(a);
+        sort(b);
         int i;
         for (i = 0; i < a.length; i++) {
             if(a[i] != b[i]) {
@@ -15,7 +15,7 @@ public class Kor6 {
         }
         System.out.println(true);
     }
-    public static int[] sort(int[] a) {
+    public static void sort(int[] a) {
         int temp = 0, i,k;
         for (i = 0; i < a.length; i++) {
             for (k = 0; k < i; k++) {
@@ -26,6 +26,5 @@ public class Kor6 {
                 }
             }
         }
-        return a;
     }
 }
